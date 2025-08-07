@@ -50,7 +50,7 @@
         <section class="hero-section section">
           <div class="container">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-modal-open>Order Service</button>
           </div>
         </section>
       
@@ -445,9 +445,9 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay" data-modal>
 <div class="modal">
-<button class="modal-close-button" type="button">
+<button class="modal-close-button" type="button" data-modal-close>
   <svg class="modal-icon-close" width="8" height="8">
     <use href="./images/icons.svg#icon-close"></use>
   </svg>
@@ -507,9 +507,10 @@ I accept the terms and conditions of the
 <a class="privacy-link" href="">Privacy Policy</a>
   </label>
 </div>
-<button class="modal-send-button">Send</button>
+<button class="modal-send-button" type="submit">Send</button>
 </form>
 </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
