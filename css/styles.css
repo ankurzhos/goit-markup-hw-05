@@ -497,11 +497,11 @@ transform: translateY(0);
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.modal-form-list {
-  margin-bottom: 8px;
-}
 .modal-form-item {
   margin-bottom: 8px; 
+}
+.modal-textarea {
+  margin-bottom: 16px; 
 }
 .modal-form-label {
   display: block; 
