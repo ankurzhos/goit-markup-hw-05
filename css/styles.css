@@ -388,16 +388,20 @@ transform: translateY(0);
 
 .footer-form-input {
   border: 1px solid #fff;
-  color: #ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  font-size: 12px; 
-  line-height: 2;
-  letter-spacing: 0.04em; 
   padding-left: 16px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
+  outline: none;
+}
+
+.footer-form-input::placeholder {
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
 }
 
 .footer-subscribe-button {
@@ -419,7 +423,6 @@ transform: translateY(0);
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-subscribe-button:hover,
 .footer-subscribe-button:focus {
   background-color: #404bbf;
@@ -568,10 +571,10 @@ transform: translateY(0);
   fill: transparent;
   width: 16px;
   height: 16px;
+  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4); 
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .checkbox-privacy-policy:checked + label > .privacy-check {
   background-color: #404bbf;
